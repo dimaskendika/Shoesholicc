@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compass</title>
+    <link rel="stylesheet" href="geoffmax.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+      
+        <a href="#" class="logo">Shoes <span> Holic</span></a>
+
+        <nav class="navbar">
+            <a href="index.html"class="active">Home</a>
+            <a href="brand.html">Brands</a>
+            <a href="product.html">Products</a>
+            <a href="articles.html">Articles</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="compass" id="compass">
+
+        <h1>Com<span>pass</span></h1>
+
+        <div class="product-container">
+            
+            <div class="product-box">      
+                <div class="p-img-container">
+                    <div class="p-img">
+                        <a href="#">
+                            <img src="img/aero1.jpeg" class="p-img-front" alt="Front"/>
+                            <img src="img/aeroo1.jpeg" class="p-img-back" alt="Front"/>
+                        </a>
+                    </div>
+                </div>       
+                <div class="p-box-text">
+                    <div class="product-category">
+                        <span>Sneakers</span>
+                    </div>
+                    <a href="#" class="product-title">
+                        Hoops Low White Grey | Aerostreet
+                    </a>       
+                    <div class="price-buy">
+                        <span class="p-price">Rp. 169.000</span>
+                        <a id="popbtn" class="p-btn">Buy Now</a>
+                    </div>
+                </div>
+    
+            </div>
+
+
+            <div class="product-box">
+                <div class="p-img-container">
+                    <div class="p-img">
+                        <a href="#">
+                            <img src="img/aero2.webp" class="p-img-front" alt="Front"/>
+                            <img src="img/aeroo2.webp" class="p-img-back" alt="Front"/>
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="p-box-text">
+                    <div class="product-category">
+                        <span>Sneakers</span>
+                    </div>
+                    <a href="#" class="product-title">
+                        Jisoo Natural Merah Muda Pastel Biru Tua | Aerostreet
+                    </a>
+                    <div class="price-buy">
+                        <span class="p-price">Rp. 160.000</span>
+                        <a href="#" class="p-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="product-box">
+                <div class="p-img-container">
+                    <div class="p-img">
+                        <a href="#">
+                            <img src="img/aero3.webp" class="p-img-front" alt="Front"/>
+                            <img src="img/aeroo3.webp" class="p-img-back" alt="Front"/>
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="p-box-text">
+                    <div class="product-category">
+                        <span>Sneakers</span>
+                    </div>
+                    <a href="#" class="product-title">
+                        RETROGRADE HI DECON BABY BLUE CYAN | Compass
+                    </a>
+                    <div class="price-buy">
+                        <span class="p-price">Rp. 438.000</span>
+                        <a href="#" class="p-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <img src="img/aeroo1.webp" alt="Product Image" class="popup-img">
+            <div class="popup-text">
+                <h2>Hoops Low White Grey | Aerostreet</h2>
+                <p class="popup-price">Rp. 160.000</p>
+                <p class="desc">
+                   Aerostreet "Now everyone can buy a good shoes."
+                </p>
+            </div>
+            <div class="popup-btn">
+                <button class="buybtn">Buy Now</button>
+                <button id="closebtn" class="popup-cl-btn">Close</button>
+            </div>
+        </div>
+    </div>   
+
+    <div id="payment" class="payment">
+        <h1 class="payTitle">Personal Information</h1>
+        <label>Name and Surname</label>
+        <input type="text" placeholder="John Doe" class="payInput">
+        <label>Phone Number</label>
+        <input type="text" placeholder="+1 234 5678" class="payInput">
+        <label>Address</label>
+        <input type="text" placeholder="Elton St 21 22-145" class="payInput">
+        <h1 class="payTitle">Card Information</h1>
+        <div class="cardIcons">
+            <img src="./img/visa.png" width="40" alt="" class="cardIcon">
+            <img src="./img/master.png" alt="" width="40" class="cardIcon">
+        </div>
+        <input type="password" class="payInput" placeholder="Card Number">
+        <div class="cardInfo">
+            <input type="text" placeholder="mm" class="payInput sm">
+            <input type="text" placeholder="yyyy" class="payInput sm">
+            <input type="text" placeholder="cvv" class="payInput sm">
+        </div>
+        <button class="payButton" onclick="alert('Payment Successful, Your order will be processed')">Checkout!</button>
+        <span id="close" class="close">X</span>
+    </div>
+
+
+
+    <footer class="footer" id="footer">
+        <div class="footer-content">
+            <img src="img/logo.png">
+            <p>Your Daily Needs of Shoes</p>
+        
+
+        <div class="icons">
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+            <a href="#"><i class='bx bxl-facebook' ></i></a>
+            <a href="#"><i class='bx bxl-youtube' ></i></a>
+        </div>
+        </div>
+
+        <div class="footer-content">
+            <h4>Brands</h4>
+            <li><a href="compass.html">Compass</a></li>
+            <li><a href="product.html" >Heiden Heritage</a></li>
+            <li><a href="geoffmax.html">Geoff Max</a></li>
+            <li><a href="product.html">Ventela</a></li>
+            <li><a href="product.html">NAH Project</a></li>
+            <li><a href="product.html">Aerostreet</a></li>
+            <li><a href="product.html">Brodo</a></li>
+            <li><a href="product.html">Patrobas</a></li>
+        </div>
+
+        
+        <div class="footer-content">
+            <h4 href="product.html">Products</h4>
+            <li><a href="product.html">All Products</a></li>
+        </div>
+
+        
+        <div class="footer-content">
+            <h4><a href="articles.html">Articles</a></h4>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="about.html">About</a></li>
+        </div>
+    </footer>
+
+</body>
+<script>
+const popup = document.getElementById("popup");
+        const closebtn = document.getElementById("closebtn");
+        const buybtn = document.querySelector(".buybtn");
+        const payment = document.getElementById("payment");
+        const close = document.getElementById("close");
+ 
+        popbtn.addEventListener("click",function () {
+        popup.classList.add("show");
+    }
+);
+
+closebtn.addEventListener("click",function () {
+        popup.classList.remove("show");
+    }
+);
+
+buybtn.addEventListener("click",function () {
+        popup.classList.remove("show");
+    }
+);
+
+window.addEventListener("click",function (event) {
+        if (event.target == popup) {
+            popup.classList.remove("show");
+        }
+    }
+);
+        buybtn.addEventListener("click", function () {
+           popup.classList.remove("show");
+        payment.style.display = "flex";
+        });
+
+        close.addEventListener("click", function () {
+            payment.style.display = "none";
+        });
+</script>
+</html>
